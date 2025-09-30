@@ -1,0 +1,75 @@
+{
+  "services": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "method": "GET",
+      "timeout": "5s",
+      "retries": 2
+    },
+    {
+      "name": "GitHub API",
+      "url": "https://api.github.com",
+      "method": "GET",
+      "timeout": "10s",
+      "retries": 3
+    },
+    {
+      "name": "JSONPlaceholder",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "timeout": "8s",
+      "retries": 2
+    },
+    {
+      "name": "HTTPBin Status",
+      "url": "https://httpbin.org/status/200",
+      "timeout": "6s",
+      "retries": 1
+    },
+    {
+      "name": "Example.com",
+      "url": "https://example.com",
+      "timeout": "5s",
+      "retries": 2
+    },
+    {
+      "name": "Duck Duck Go",
+      "url": "https://duckduckgo.com",
+      "timeout": "7s",
+      "retries": 2
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "timeout": "10s",
+      "retries": 3
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com",
+      "timeout": "8s",
+      "retries": 2
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org",
+      "timeout": "6s",
+      "retries": 2
+    },
+    {
+      "name": "Docker Hub",
+      "url": "https://hub.docker.com",
+      "timeout": "9s",
+      "retries": 3
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "timeout": "8s",
+      "retries": 2
+    }
+  ],
+  "default_timeout": "10s",
+  "default_retries": 3,
+  "output_format": "json"
+}
